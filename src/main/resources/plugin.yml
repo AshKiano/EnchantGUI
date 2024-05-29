@@ -1,0 +1,14 @@
+name: EnchantGUI
+version: '${project.version}'
+main: enchantgui.enchantgui.EnchantGUI
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  enchantgui:
+    description: Open the enchanting GUI
+    usage: /<command>
+    permission: enchantgui.use
+permissions:
+  enchantgui.use:
+    description: Allows use of the enchant GUI
+    default: op
